@@ -25,9 +25,11 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 55571612325
-  numberOfFiles: 108
-  numberOfSubjects: 1
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 146935147050
+  numberOfFiles: 322
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -42,6 +44,7 @@ assetsSummary:
   - CompassDirection
   - BehavioralTimeSeries
   - LFP
+  - ElectrodeGroup
 citation: Bray, Samuel (2025) Optogenetic disruption of theta-timescale spiking (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001607/draft
 contributor:
