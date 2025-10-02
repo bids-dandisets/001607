@@ -27,8 +27,10 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 146935147050
-  numberOfFiles: 322
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 147739531902
+  numberOfFiles: 366
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -45,6 +47,7 @@ assetsSummary:
   - BehavioralTimeSeries
   - LFP
   - ElectrodeGroup
+  - Units
 citation: Bray, Samuel (2025) Optogenetic disruption of theta-timescale spiking (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001607/draft
 contributor:
